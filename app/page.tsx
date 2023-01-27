@@ -1,3 +1,10 @@
+//
+// Copyright (c) 2023 Quadient Group AG
+//
+// This file is subject to the terms and conditions defined in the
+// 'LICENSE' file found in the root of this source code package.
+//
+
 import Navbar from '@/components/navbar'
 
 export default function Home() {
