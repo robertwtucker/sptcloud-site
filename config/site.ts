@@ -2,7 +2,7 @@ import { AnalyticsConfig } from '@/components/analytics'
 
 export interface SiteConfig {
   title: string
-  headerTitle: string
+  name: string
   description: string
   baseUrl: string
   icon: string
@@ -11,7 +11,7 @@ export interface SiteConfig {
 
 const siteConfig: SiteConfig = {
   title: 'SPT Cloud',
-  headerTitle: 'SPT Cloud',
+  name: 'SPT Cloud',
   description: 'SPT services and information',
   baseUrl: 'https://sptcloud.com',
   icon: '/favicon.ico',

@@ -2,24 +2,22 @@
  * Copyright (c) 2023 Quadient Group AG
  * SPDX-License-Identifier: MIT
  */
-import Link from '@/components/ui/Link'
+import Link from '@/components/ui/link'
 import siteConfig from '@/config/site'
-import headerNavLinks from '@/config/headerNavLinks'
-import MobileNav from './MobileNav'
-import ThemeSwitch from './ThemeSwitch'
+import headerNavLinks from '@/config/nav'
+import MobileNav from '@/components/ui/mobile-nav'
+import { ModeToggle } from '@/components/ui/mode-toggle'
 
 const Header = () => {
   return (
     <header className="flex items-center justify-between py-10">
       <div>
-        <Link href="/" aria-label={siteConfig.headerTitle}>
+        <Link href="/" aria-label={siteConfig.name}>
           <div className="flex items-center justify-between">
-            {typeof siteConfig.headerTitle === 'string' ? (
-              <div className="hidden h-6 text-2xl font-semibold sm:block">
-                {siteConfig.headerTitle}
-              </div>
+            {typeof siteConfig.name === 'string' ? (
+              <div className="hidden h-6 text-2xl font-semibold sm:block">{siteConfig.name}</div>
             ) : (
-              siteConfig.headerTitle
+              siteConfig.name
             )}
           </div>
         </Link>
@@ -34,7 +32,7 @@ const Header = () => {
             {link.title}
           </Link>
         ))}
-        <ThemeSwitch />
+        <ModeToggle />
         <MobileNav />
       </div>
     </header>
