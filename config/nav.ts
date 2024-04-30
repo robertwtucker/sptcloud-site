@@ -3,8 +3,10 @@
  * SPDX-License-Identifier: MIT
  */
 
-export default [
+const headerNavLinks = [
   { href: '/', title: 'Demos' },
   { href: '/', title: 'Resources' },
   { href: '/', title: 'About' },
 ]
+
+export default headerNavLinks
