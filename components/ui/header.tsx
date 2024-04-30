@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Quadient Group AG
  * SPDX-License-Identifier: MIT
  */
-import Link from '@/components/ui/link'
-import siteConfig from '@/config/site'
 import headerNavLinks from '@/config/nav'
+import siteConfig from '@/config/site'
+import Link from '@/components/ui/link'
 import MobileNav from '@/components/ui/mobile-nav'
 import { ModeToggle } from '@/components/ui/mode-toggle'
 

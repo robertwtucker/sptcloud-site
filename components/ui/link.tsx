@@ -2,9 +2,9 @@
  * Copyright (c) 2023 Quadient Group AG
  * SPDX-License-Identifier: MIT
  */
+import { AnchorHTMLAttributes } from 'react'
 import Link from 'next/link'
 import type { LinkProps } from 'next/link'
-import { AnchorHTMLAttributes } from 'react'
 
 const LinkWrapper = ({ href, ...props }: LinkProps & AnchorHTMLAttributes<HTMLAnchorElement>) => {
   const isInternalLink = href && href.startsWith('/')

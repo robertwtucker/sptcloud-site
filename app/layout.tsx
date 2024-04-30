@@ -3,20 +3,22 @@
  * SPDX-License-Identifier: MIT
  */
 import '@/styles/globals.css'
+
+import { Metadata } from 'next'
 import { Inter as FontSans } from 'next/font/google'
 import { ThemeProvider } from 'next-themes'
 
 import siteConfig from '@/config/site'
-import { Analytics } from '@/components/analytics'
-import Header from '@/components/ui/header'
 import { cn } from '@/lib/utils'
+import Header from '@/components/ui/header'
+import { Analytics } from '@/components/analytics'
 
 const fontSans = FontSans({
   subsets: ['latin'],
   variable: '--font-sans',
 })
 
-export const metadata = {
+export const metadata: Metadata = {
   title: {
     default: siteConfig.title,
     template: `%s | ${siteConfig.name}`,

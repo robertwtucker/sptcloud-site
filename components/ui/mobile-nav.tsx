@@ -2,8 +2,8 @@
 
 import { useState } from 'react'
 
-import Link from '@/components/ui/link'
 import headerNavLinks from '@/config/nav'
+import Link from '@/components/ui/link'
 
 const MobileNav = () => {
   const [navShow, setNavShow] = useState(false)
