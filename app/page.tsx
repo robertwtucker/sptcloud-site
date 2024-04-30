@@ -2,11 +2,6 @@
  * Copyright (c) 2023 Quadient Group AG
  * SPDX-License-Identifier: MIT
  */
-import { Metadata } from 'next'
-
-export const metadata: Metadata = {
-  title: 'Home',
-}
 
 export default function Page() {
   return (
