@@ -1,6 +1,6 @@
 {
   "name": "sptcloud-site",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -10,37 +10,37 @@
   },
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.1.16",
-    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-slot": "^1.2.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "eslint-plugin-tailwindcss": "^3.18.2",
-    "lucide-react": "^0.544.0",
-    "next": "15.5.3",
+    "lucide-react": "^0.555.0",
+    "next": "15.5.7",
     "next-themes": "^0.4.6",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
-    "tailwind-merge": "^3.3.1",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "tailwind-merge": "^3.4.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
     "@types/node": "^24.10.1",
-    "@types/react": "19.1.9",
-    "@types/react-dom": "19.0.2",
-    "@typescript-eslint/eslint-plugin": "^8.39.0",
-    "@typescript-eslint/parser": "^8.45.0",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.48.1",
+    "@typescript-eslint/parser": "^8.48.1",
     "eslint": "^9.39.1",
     "eslint-config-next": "16.0.7",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-tailwindcss": "^3.17.5",
     "postcss": "^8.5.6",
-    "prettier": "^3.6.2",
+    "prettier": "^3.7.4",
     "prettier-plugin-tailwindcss": "^0.6.14",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
-  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748",
+  "packageManager": "pnpm@10.24.0",
   "pnpm": {
     "overrides": {
       "@types/react": "19.1.9",
