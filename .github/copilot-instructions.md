@@ -29,6 +29,7 @@ This is a **Next.js 16 App Router** landing site using React 19, TypeScript, Tai
 - **`@/components/ui/link`** — Use this custom `LinkWrapper` instead of `next/link` or `<a>` directly. It auto-detects internal (`/`), anchor (`#`), and external links, adding `target="_blank" rel="noopener noreferrer"` for external ones.
 - **Dark mode** uses the `class` strategy (via `next-themes`). Use `dark:` Tailwind variants; the toggle in the header switches `light` / `dark` / `system`.
 - **Prettier** enforces: no semis, single quotes, 100-char print width, `es5` trailing commas. Import order is auto-sorted by `@ianvs/prettier-plugin-sort-imports` — react → next → third-party → internal (`@/`) → relative.
+- **ESLint flat config** — `eslint.config.mjs` (ESLint 9 flat config). Uses `eslint-config-next/core-web-vitals` for Next.js + TypeScript rules, `eslint-config-prettier` to disable conflicting rules, and `eslint-plugin-prettier` to enforce formatting. Run with `pnpm lint` (`eslint .`).
 - **Copyright header** — Source files carry a `Copyright (c) 202x Quadient Group AG / SPDX-License-Identifier: MIT` block comment. Add this to new files.
 - **Package manager is `pnpm`** — do not use `npm` or `yarn`.
 - **`components.json`** — shadcn/ui config is present; use `pnpm dlx shadcn@latest add <component>` to add new primitives rather than hand-coding them.
