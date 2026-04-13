@@ -1,6 +1,6 @@
 {
   "name": "sptcloud-site",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -38,11 +38,5 @@
     "prettier-plugin-tailwindcss": "^0.7.2",
     "typescript": "^5.9.3"
   },
-  "packageManager": "pnpm@10.30.2",
-  "pnpm": {
-    "overrides": {
-      "@types/react": "19.2.14",
-      "@types/react-dom": "19.0.2"
-    }
-  }
+  "packageManager": "pnpm@10.30.2"
 }
